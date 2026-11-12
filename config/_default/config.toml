@@ -1,0 +1,20 @@
+baseURL = "https://airmour.github.io/"
+title = "Airmour 的博客"
+languageCode = "zh-CN"
+defaultContentLanguage = "zh"
+hasCJKLanguage = true
+enableRobotsTXT = true
+
+[pagination]
+pagerSize = 8
+
+[permalinks]
+post = "/p/:slug/"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[caches]
+  [caches.images]
+    dir = ":cacheDir/images"

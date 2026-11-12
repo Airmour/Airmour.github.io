@@ -1,0 +1,38 @@
+mainSections = ["post"]
+rssFullContent = true
+
+[footer]
+since = 2026
+customText = "用文字记录所学与所想。"
+
+[dateFormat]
+published = "2006-01-02"
+lastUpdated = "2006-01-02"
+
+[sidebar]
+emoji = "✍️"
+subtitle = "记录技术、阅读与日常。"
+avatar = ""
+
+[article]
+headingAnchor = true
+readingTime = true
+
+  [article.license]
+  enabled = false
+
+[widgets]
+homepage = [
+  { type = "search" },
+  { type = "archives", params = { limit = 5 } },
+  { type = "categories", params = { limit = 10 } },
+  { type = "tag-cloud", params = { limit = 10 } },
+]
+page = [{ type = "toc" }]
+
+[colorScheme]
+toggle = true
+default = "auto"
+
+[comments]
+enabled = false
