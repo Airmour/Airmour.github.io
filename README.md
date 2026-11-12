@@ -2,6 +2,8 @@
 
 基于 Hugo + Stack，部署到 GitHub Pages。
 
+已从博客园导入 15 篇文章，发布时间按原始备份换算为北京时间；图片暂时继续使用博客园图床。
+
 ## 写文章
 
 在 `content/post/` 下新建 Markdown 文件，例如 `my-first-post.md`：
