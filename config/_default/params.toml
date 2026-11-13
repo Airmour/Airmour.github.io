@@ -1,39 +1,20 @@
-mainSections = ["post"]
-rssFullContent = true
-favicon = "/favicon.ico"
+author = "Airmour"
+info = ["技术记录", "阅读笔记"]
+description = "Airmour 的个人博客，记录技术实践、阅读和日常想法。"
+keywords = "Android, Kotlin, Java, 技术博客, 阅读笔记"
 
-[footer]
+faviconSVG = "/favicon.svg"
+favicon_32 = "/favicon-32x32.png"
+favicon_16 = "/favicon-16x16.png"
+touchIcon = "/apple-touch-icon.png"
+
 since = 2016
-customText = "用文字记录所学与所想。"
+dateFormat = "2006-01-02 15:04"
+colorScheme = "auto"
+hideColorSchemeToggle = false
 
-[dateFormat]
-published = "2006-01-02 15:04"
-lastUpdated = "2006-01-02 15:04"
-
-[sidebar]
-emoji = "✍️"
-subtitle = "记录技术、阅读与日常。"
-avatar = ""
-
-[article]
-headingAnchor = true
-readingTime = true
-
-  [article.license]
-  enabled = false
-
-[widgets]
-homepage = [
-  { type = "search" },
-  { type = "archives", params = { limit = 5 } },
-  { type = "categories", params = { limit = 10 } },
-  { type = "tag-cloud", params = { limit = 10 } },
-]
-page = [{ type = "toc" }]
-
-[colorScheme]
-toggle = true
-default = "auto"
-
-[comments]
-enabled = false
+[[social]]
+name = "GitHub"
+icon = "fa-brands fa-github fa-2x"
+weight = 1
+url = "https://github.com/Airmour/"

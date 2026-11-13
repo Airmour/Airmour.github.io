@@ -1,20 +1,36 @@
 baseURL = "https://airmour.github.io/"
 title = "Airmour 的博客"
 languageCode = "zh-CN"
-defaultContentLanguage = "zh"
+defaultContentLanguage = "zh-cn"
 hasCJKLanguage = true
 enableRobotsTXT = true
+theme = "hugo-coder"
+enableEmoji = true
 
 [pagination]
-pagerSize = 8
+pagerSize = 10
 
 [permalinks]
 post = "/p/:slug/"
 
 [taxonomies]
 category = "categories"
+series = "series"
 tag = "tags"
+author = "authors"
 
-[caches]
-  [caches.images]
-    dir = ":cacheDir/images"
+[markup.highlight]
+noClasses = false
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[[menu.main]]
+name = "文章"
+weight = 1
+url = "/posts/"
+
+[[menu.main]]
+name = "关于"
+weight = 2
+url = "/about/"

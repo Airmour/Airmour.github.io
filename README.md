@@ -1,6 +1,6 @@
 # Airmour 的博客
 
-基于 Hugo + Stack，部署到 GitHub Pages。
+基于 Hugo + Coder，部署到 GitHub Pages。
 
 已从博客园导入 15 篇文章，发布时间按原始备份换算为北京时间；文章图片已下载到 `static/images/cnblogs/`，由本站直接提供。
 
@@ -30,4 +30,4 @@ tags: ["Android", "Kotlin"]
 
 博客地址：<https://airmour.github.io/>。
 
-Stack 主题通过 Hugo Modules 引入。v4 需要 Hugo 0.157.0 或更新版本；本仓库的 Actions 工作流已配置 Hugo 0.167.0。
+Coder 主题通过 Hugo Modules 引入。主题最低要求 Hugo 0.124.0；本仓库的 Actions 工作流已配置 Hugo 0.167.0。
