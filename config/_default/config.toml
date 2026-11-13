@@ -1,10 +1,9 @@
 baseURL = "https://airmour.github.io/"
 title = "Airmour 的博客"
-languageCode = "zh-CN"
+locale = "zh-CN"
 defaultContentLanguage = "zh-cn"
 hasCJKLanguage = true
 enableRobotsTXT = true
-theme = "hugo-coder"
 enableEmoji = true
 
 [pagination]
